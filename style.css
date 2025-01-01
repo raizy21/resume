@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script&display=swap");
+
+/* Reset Line */
 * {
   padding: 0;
   margin: 0;
@@ -5,13 +8,13 @@
 }
 
 body {
-  font-family: system-ui;
+  font-family: "Cantarell", sans-serif;
   background-color: #efefef;
 }
 
 header {
-  padding: 2rem 4rem;
-  border-bottom: 2px solid #29213f;
+  display: flex;
+  /* border: 1px solid red; */
 }
 
 header ul {
@@ -26,7 +29,7 @@ header a {
 
 header a:hover {
   text-decoration: underline;
-  color: hotpink;
+  color: peru;
 }
 
 header img {
@@ -35,57 +38,110 @@ header img {
   border-radius: 50%;
   object-fit: cover;
   filter: grayscale(1);
-  margin: 1rem auto;
+  margin: 2rem;
+  height: 300px;
+  width: 300px;
 }
 
 h1 {
   text-align: center;
   color: peru;
   text-decoration: underline;
+  display: inline-block;
+  margin-top: 7rem;
 }
 
 main {
-  margin: 2rem 4rem;
+  margin: 0.5rem 3rem;
   max-width: 80ch;
 }
 
 section {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
-section li h3,
-section li p {
-  font-size: 0.8rem;
-  letter-spacing: 0.5px;
+h2 {
+  font-size: 2rem;
+  color: peru;
+  text-decoration: underline;
+}
+section p {
+  margin-left: 1.2rem;
+  margin-top: 0.4rem;
 }
 
-section li {
-  margin: 0.5rem;
+.panel {
+  /* border: 1px solid #c3c3c3; */
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+}
+.panel h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
 }
 
-/* Medium devices (landscape tablets, 768px to 992px) */
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-  /* CSS rules for medium screens */
-  h1 {
-    color: red;
-    font-size: 4rem;
-  }
+ul {
+  list-style-type: none;
 }
 
-/* Large devices (laptops/desktops, 992px to 1200px) */
-@media only screen and (min-width: 993px) and (max-width: 1200px) {
-  /* CSS rules for large screens */
-  h1 {
-    color: green;
-    font-size: 5rem;
-  }
+.company {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.date-place {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.6rem;
+  color: #273d55;
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1201px) {
-  /* CSS rules for extra large screens */
-  h1 {
-    color: blue;
-    font-size: 6rem;
-  }
+.place {
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+.ability {
+  list-style-type: circle;
+}
+
+.header-details {
+  color: peru;
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+
+  position: absolute;
+  top: 20rem;
+  width: 95%;
+  justify-content: flex-end;
+}
+
+.driving {
+  display: flex;
+  font-size: 1.6rem;
+
+  position: absolute;
+
+  width: 92%;
+  justify-content: flex-end;
+  top: 25rem;
+}
+
+section h4 {
+  color: peru;
+}
+
+.links {
+  display: flex;
+  font-size: 1.6rem;
+
+  position: absolute;
+
+  width: 92%;
+  justify-content: flex-end;
+  top: 28rem;
+}
+.links a {
 }
