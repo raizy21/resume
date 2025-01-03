@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-
     <!-- fav_icon  -->
     <link rel="icon" type="image/png" href="images/favicon.png" />
 
@@ -11,205 +10,328 @@
       crossorigin="anonymous"
     ></script>
 
-    
     <!-- Link CSS -->
     <link rel="stylesheet" href="style.css" />
-    <title>Andrei</title>
+    <title>Resume</title>
   </head>
   <body>
-   
-    <header>
-      <img src="images/mypic.jpg" alt="andrei" width="100" height="100" />
-      <h1>
+    <!-- header -->
+    <header class="header">
+      <img src="images/mypic.jpg" alt="andrei" class="header-img" />
+      <h1 class="header-heading">
         Chiper <br />
         Razvan-Andrei
       </h1>
-      <section class="header-details">
+
+      <div class="header-details">
         <ul>
           <li>
-            <i class="fa-solid fa-envelope"></i> <a href="mailto:andreiraizy@gmail.com">andreiraizy@gmail.com</a>
+            <i class="fa-solid fa-envelope header-details-icon"></i>
+            <a href="mailto:andreiraizy@gmail.com" class="header-details-mail"
+              >andreiraizy@gmail.com</a
+            >
           </li>
-          
         </ul>
-      </section>
-    </header>
-
-    <main>
-      <section>
-        <h2>Profile...</h2>
-        <p>&nbsp;&emsp;
-          Technically enthusiastic person with fast learning skills. Mostly a
-          self-taught person with experience in various programming languages,
-          scripting languages, operating systems and software. A creative
-          thinker and an open-minded person with proven ability in software
-          development. Ready to utilize my skills and passion to identifying
-          customer needs and delivering effective solutions to problems.
-        </p>
-      </section>
-
-      <section>
-        <h2>Employment History...</h2>
-        <div class="panel">
-          <h3>&emsp;IT Support Engineer</h3>
-          <ul>
-            <li>
-              <p class="company">
-                Amazon Web Services (AWS)
-              </p>
-            </li>  
-  
-            <li>
-              <div class="date-place">
-                <p>Sept, 2022 - Present</p>
-                <p class="place">Berlin, Germany</p>
-              </div>
-            </li>
-          
-            <li>
-              <ul class="ability">
-                <li>Maintaining (Server/Network) reliability by prioritizing and resolving trouble tickets efficiently.</li>
-                <li>
-                  Diagnose and repair issues for server, storage and network devices, including the physical replacement of parts.
-                </li>
-                <li>Installing, troubleshooting and fixing desktops, printers, laptop and other computer peripherals hardware problems.</li>
-                <li>Onboarding new hires and buy/reserves devices</li>
-              </ul>
-             </li>
-        </div>
-        <div class="panel">
-
-          <h3>&emsp;IT Help Desk</h3>
-          <ul>
-            <li>
-              <p class="company">
-                Bosch Service Solutions S.R.L.
-              </p>
-            </li>  
-          
-            <li>
-              <div class="date-place">
-                <p>Aug, 2021 - Jul, 2022</p>
-                <p class="place">Timişoara, Romania</p>
-              </div>
-            </li>
-          
-            <li>
-              <ul class="ability">
-                <li>Ability to communicate well and solve problems without complicating them.</li>
-                <li>Identify, solve and document the errors reported by the customers.</li>
-                <li>Based on feedback and progress, providing more helpful troubleshooting.</li>
-              </ul>
-          </li>
-        </div>
-        
-      </section> 
-              
-    <section>
-    
-      <h2>Education…</h2>
-      <div class="panel">
-        <ul>
-
-        <li class="company">
-          <p class="company">Technische Universität Carolo-Wilhelmina Braunschweig</p>
-        </li>
-        <li>
-          <div class="date-place">
-            <p>Apr, 2017 - Apr, 2021</p>
-            <p class="place">Braunschweig, Germany</p>
-          </div>
-        </li>
-      </ul>
       </div>
+    </header>
+    <!-- end of header -->
 
-      <div class="panel">
-          <ul>
-            <li class="company">
-              <p class="company">General education school</p>
-            </li>
-            <li>
-              <div class="date-place">
+    <!-- main  -->
+    <main class="development">
+      <!-- main part 70% -->
+      <section class="progress">
+        <!-- profile     -->
+        <section class="progress-section">
+          <h2 class="progress-heading">Profile...</h2>
+          <p class="progress-paragraph">
+            &emsp; Technically enthusiastic person with fast learning skills.
+            Mostly a self-taught person with experience in various programming
+            languages, scripting languages, operating systems and software. A
+            creative thinker and an open-minded person with proven ability in
+            software development. Ready to utilize my skills and passion to
+            identifying customer needs and delivering effective solutions to
+            problems.
+          </p>
+        </section>
+        <!-- end of profile -->
+        <!-- employment -->
+        <section class="progress-section">
+          <h2 class="progress-heading">Employment History...</h2>
 
-                <p>Sep, 2001 - Jul, 2013</p> 
-                <p class="place">Brasov, Romania</p>
-              </div>
-          </ul>
-        </div>
-    </section>
-
-      <section>
-    <h2>Course...</h2>
-    <ul>
-      <div class="panel">
-        <ul>
-          <li class="company">
-            <p class="company">Volksschule or Oskar Kämmer Schule</p>
-          </li>
-          <li>
-            <div class="date-place">
-              <p>Oct, 2015 - Feb, 2017</p>
-                <p class="place">Salzgitter or Braunschweig, Germany</p>
-              </div>
+          <!-- item 1 -->
+          <div class="progress-wrapper">
+            <h3 class="progress-wrapper-job">&emsp;IT Support Engineer</h3>
+            <ul class="progress-wrapper-list">
+              <li>
+                <p class="progress-wrapper-company">
+                  Amazon Web Services (AWS)
+                </p>
               </li>
-      
-      </ul>
-    </div>
-  </section>
 
-      <section>
-        <h2>Internships...</h2>
-        <ul>
-          <div class="panel">
+              <li>
+                <div class="progress-wrapper-date">
+                  <p>Sept, 2022 - Present</p>
+                  <p class="progress-wrapper-place">Berlin, Germany</p>
+                </div>
+              </li>
+
+              <li class="progress-wrapper-ability-item">
+                <ul class="progress-wrapper-ability">
+                  <li class="progress-wrapper-ability-item">
+                    Maintaining (Server/Network) reliability by prioritizing and
+                    resolving trouble tickets efficiently.
+                  </li>
+                  <li class="progress-wrapper-ability-item">
+                    Diagnose and repair issues for server, storage and network
+                    devices, including the physical replacement of parts.
+                  </li>
+                  <li class="progress-wrapper-ability-item">
+                    Installing, troubleshooting and fixing desktops, printers,
+                    laptop and other computer peripherals hardware problems.
+                  </li>
+                  <li class="progress-wrapper-ability-item">
+                    Onboarding new hires and buy/reserves devices
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- end of item 1 -->
+          <!-- item 2 -->
+          <div class="progress-wrapper">
+            <h3 class="progress-wrapper-job">&emsp;IT Help Desk</h3>
+            <ul class="progress-wrapper-list">
+              <li>
+                <p class="progress-wrapper-company">Bosch Service Solutions</p>
+              </li>
+
+              <li>
+                <div class="progress-wrapper-date">
+                  <p>Aug, 2021 - Jul, 2022</p>
+                  <p class="progress-wrapper-place">Timişoara, Romania</p>
+                </div>
+              </li>
+
+              <li>
+                <ul class="progress-wrapper-ability">
+                  <li class="progress-wrapper-ability-item">
+                    Ability to communicate well and solve problems without
+                    complicating them.
+                  </li>
+                  <li class="progress-wrapper-ability-item">
+                    Identify, solve and document the errors reported by the
+                    customers.
+                  </li>
+                  <li class="progress-wrapper-ability-item">
+                    Based on feedback and progress, providing more helpful
+                    troubleshooting.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- end of item 2 -->
+        </section>
+        <!-- end of employment -->
+
+        <!-- internship -->
+        <section class="progress-section">
+          <h2 class="progress-heading">Internships...</h2>
+
+          <div class="progress-wrapper">
             <ul>
-              <li class="company">
-                <p class="company">Software Development Internship - TU Braunschweig</p>
+              <li>
+                <p class="progress-wrapper-company">
+                  Software Development Internship - TU Braunschweig
+                </p>
               </li>
               <li>
-                <div class="date-place">
+                <div class="progress-wrapper-date">
                   <p>Aug, 2020 - Feb, 2021</p>
-                  <P class="place">Braunschweig</P>
+                  <p class="progress-wrapper-place">Braunschweig</p>
                 </div>
               </li>
-            <li>
-              <ul>
-                <li>&emsp;Excellent performance in the software development internship - <b>1st prize certificate in the SherloQL - Winner of TDSE2020</b> <a href="https://www.tu-braunschweig.de/isf/teaching/2020s/sep?fbclid=IwAR0C9KaqZKe3RdNXvViwOghKcVqjZNAfcItSn3vdqmmit4st7gFTfecou6A#"> <i class="fa-solid fa-video"></i>Video</a></li>
-               
-              </ul>
-            </li>
-        </ul>
-      </div>
- </section>
 
-    <section>
-      <h2>Extra-curricular activities...</h2>
-      <ul>
-        <div class="panel">
-          <ul>
-            </li class="company">
-              <p class="company">Spielanalyse & Scouting - IST-Studieninstitut</p>
-            </li>
-            <li>
-              <div class="date-place">
-                <p>Nov, 2018 - Jul, 2019</p>
-                <p class="place">Düsseldorf</p>
+              <li>
+                <p class="progress-paragraph">
+                  &emsp;Excellent performance in the software development
+                  internship -
+                  <b
+                    >1st prize certificate in the SherloQL - Winner of
+                    TDSE2020</b
+                  >
+                  <a
+                    href="https://www.tu-braunschweig.de/isf/teaching/2020s/sep?fbclid=IwAR0C9KaqZKe3RdNXvViwOghKcVqjZNAfcItSn3vdqmmit4st7gFTfecou6A#"
+                    class="progress-paragraph-link"
+                  >
+                    <i class="fa-solid fa-video header-details-icon"></i
+                    >Video</a
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- end of internship -->
+
+        <!-- education -->
+        <section class="progress-section">
+          <h2 class="progress-heading">Education…</h2>
+          <!-- item 1 -->
+          <div class="progress-wrapper">
+            <ul>
+              <li>
+                <p class="progress-wrapper-company">
+                  Technische Universität Carolo-Wilhelmina Braunschweig
+                </p>
+              </li>
+
+              <li>
+                <div class="progress-wrapper-date">
+                  <p>Apr, 2017 - Apr, 2021</p>
+                  <p class="progress-wrapper-place">Braunschweig, Germany</p>
                 </div>
-                </li>
-              </ul>
-              </div>
-  </section>
+              </li>
+            </ul>
+          </div>
+          <!-- end of item 1 -->
+          <!-- item 2 -->
+          <div class="progress-wrapper">
+            <ul>
+              <li>
+                <p class="progress-wrapper-company">General education school</p>
+              </li>
+              <li>
+                <div class="progress-wrapper-date">
+                  <p>Sep, 2001 - Jul, 2013</p>
+                  <p class="progress-wrapper-place">Brasov, Romania</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-    <section class="driving" >
-      <h4>Driving license: B</h4>
-    </section>
+        <!-- end of education -->
 
-    <section class="links" >
-     
-      <a href="https://github.com/raizy21">github</a>
-    </section>
-    
+        <!-- Course -->
+        <section class="progress-section">
+          <h2 class="progress-heading">Course...</h2>
 
+          <div class="progress-wrapper">
+            <ul>
+              <li>
+                <p class="progress-wrapper-company">
+                  Volksschule or Oskar Kämmer Schule
+                </p>
+              </li>
+              <li>
+                <div class="progress-wrapper-date">
+                  <p>Oct, 2015 - Feb, 2017</p>
+                  <p class="progress-wrapper-place">
+                    Salzgitter or Braunschweig, Germany
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
 
+        <!-- end of course -->
 
+        <!-- extra-curricular activities -->
+
+        <section class="progress-section">
+          <h2 class="progress-heading">Extra-curricular activities...</h2>
+
+          <div class="progress-wrapper">
+            <ul>
+              <li>
+                <p class="progress-wrapper-company">
+                  Spielanalyse & Scouting - IST-Studieninstitut
+                </p>
+              </li>
+
+              <li>
+                <div class="progress-wrapper-date">
+                  <p>Nov, 2018 - Jul, 2019</p>
+                  <p class="progress-wrapper-place">Düsseldorf</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- end of extra-curricular activities -->
+      </section>
+      <!-- end of  main part 70% -->
+
+      <!-- second part 30% -->
+      <aside class="abstract">
+        <!-- driving -->
+        <section class="languages">
+          <h2 class="abstract-heading">Languages...</h2>
+          <div class="languages-wrapper">
+            <h4 class="abstract-heading-langueges">Romanian</h4>
+            <p class="abstract-paragraph-languages">
+              <i class="fa-solid fa-arrow-right"></i>&emsp;Native Speaker
+            </p>
+          </div>
+
+          <div class="languages-wrapper">
+            <h4 class="abstract-heading-langueges">German</h4>
+            <p class="abstract-paragraph-languages">
+              <i class="fa-solid fa-arrow-right"></i>&emsp;Highly proficient
+            </p>
+          </div>
+
+          <div class="languages-wrapper">
+            <h4 class="abstract-heading-langueges">English</h4>
+            <p class="abstract-paragraph-languages">
+              <i class="fa-solid fa-arrow-right"></i>&emsp;Very good command
+            </p>
+          </div>
+        </section>
+        <!-- end of driving -->
+
+        <!-- driving -->
+        <section class="driving">
+          <h4 class="abstract-heading">Driving license...</h4>
+          <p class="abstract-paragraph">B</p>
+        </section>
+        <!-- end of driving -->
+
+        <!-- social media links -->
+        <section class="links">
+          <h4 class="abstract-heading">Links...</h4>
+          <div class="github">
+            <a href="https://github.com/raizy21" class="aside-link">
+              <i class="fa-brands fa-github aside-icon"></i>
+              raizy21
+            </a>
+          </div>
+
+          <div class="github">
+            <a
+              href="https://www.linkedin.com/in/razvan-andrei-c-b69583161/"
+              class="aside-link"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              Razvan-Andrei Chiper
+            </a>
+          </div>
+        </section>
+        <!-- end of social media links -->
+
+        <!-- technical skills -->
+        <section class="technical-skills">
+          <h4 class="abstract-heading">Technical Skills...</h4>
+          <p class="abstract-paragraph">git</p>
+          <p class="abstract-paragraph">trouble-shooting skills</p>
+        </section>
+        <!-- end of technical skills -->
+      </aside>
+      <!-- end of second part 30% -->
     </main>
+    <!-- end of main -->
   </body>
 </html>
