@@ -71,7 +71,7 @@ body {
   aspect-ratio: 1;
   border-radius: 50%;
   object-fit: cover;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   margin: 4rem;
 }
 .header-heading {
@@ -138,6 +138,28 @@ body {
 .progress-section {
   margin-bottom: 4rem;
 }
+
+.text-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  border: none;
+  outline: none;
+}
+
+.icon-wrap {
+  color: var(--primary-color);
+  font-size: 2rem;
+  position: absolute;
+  margin-left: 2rem;
+  box-shadow: 0 0 1rem var(--primary-color);
+}
+
+.employment-icon {
+  margin-top: .7rem;
+}
+
 
 .progress-heading {
   font-size: 3rem;
