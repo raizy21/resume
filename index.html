@@ -17,7 +17,8 @@
   <body>
     <!-- header -->
     <header class="header">
-      <img src="images/mypic.jpg" alt="andrei" class="header-img" />
+      <img src="images/mypic.jpg" alt="andrei" class="header-img profile-img" />
+
       <h1 class="header-heading">
         Chiper <br />
         Razvan-Andrei
@@ -45,8 +46,18 @@
           <div class="text-wrap">
             <i class="fa-solid fa-user icon-wrap"></i>
             <h2 class="progress-heading">Profile...</h2>
+            
+            <!-- toggle profile -->
+            <div class="toggle-btn">
+              <button id="toggle-button">
+                <!-- <i class="fa-solid fa-toggle-on icon-toggle-button"></i> -->
+                <i class="fa-solid fa-toggle-off icon-toggle-button"></i>
+              </button>
+            </div>
+            <!-- end of toggle profile -->
+          
           </div>
-          <p class="progress-paragraph">
+          <p class="progress-paragraph" id="work-content">
             &emsp; Technically enthusiastic person with fast learning skills.
             Mostly a self-taught person with experience in various programming
             languages, scripting languages, operating systems and software. A
@@ -59,10 +70,15 @@
         <!-- end of profile -->
         <!-- employment -->
         <section class="progress-section">
-          <div class="text-wrapr">
+          <div class="text-wrap">
             <!-- <i class="fa-solid fa-briefcase icon-wrap"></i> -->
-            <i class="fa-solid fa-person-walking-luggage icon-wrap employment-icon" ></i>
+
+            <i
+              class="fa-solid fa-person-walking-luggage icon-wrap employment-icon"
+            ></i>
             <h2 class="progress-heading">Employment History...</h2>
+          
+          
           </div>
           <!-- item 1 -->
           <div class="progress-wrapper">
@@ -254,10 +270,10 @@
         <!-- extra-curricular activities -->
 
         <section class="progress-section">
-         <div class="text-wrap">
-          <i class="fa-solid fa-users icon-wrap"></i>
-          <h2 class="progress-heading">Extra-curricular activities...</h2>
-        </div>
+          <div class="text-wrap">
+            <i class="fa-solid fa-users icon-wrap"></i>
+            <h2 class="progress-heading">Extra-curricular activities...</h2>
+          </div>
           <div class="progress-wrapper">
             <ul>
               <li>
@@ -348,5 +364,8 @@
       <!-- end of second part 30% -->
     </main>
     <!-- end of main -->
+
+    <!-- script -->
+    <script src="script.js"></script>
   </body>
 </html>

@@ -146,6 +146,7 @@ body {
   position: relative;
   border: none;
   outline: none;
+  /* border:1px solid red; */
 }
 
 .icon-wrap {
@@ -157,9 +158,8 @@ body {
 }
 
 .employment-icon {
-  margin-top: .7rem;
+  margin-top: 0.7rem;
 }
-
 
 .progress-heading {
   font-size: 3rem;
@@ -167,6 +167,39 @@ body {
   text-decoration: underline;
   margin-left: 5rem;
 }
+/* toggle btn */
+.toggle-btn {
+  display: flex;
+  
+  margin-left: 2rem;
+  /* border: 1px solid red; */
+
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+.toggle-button {
+  color: var(--primary-color);
+  font-size: 2.2rem;
+  border: none;
+  outline: none;
+  outline-style: none;
+
+  background: var(--accent-color);
+  /* /background-color: var(--background-color); */
+}
+.icon-toggle-button {
+  color: var(--primary-color);
+  font-size: 2.2rem;
+  background: var(--background-color);
+
+  transform: scale(1.5);
+}
+
+.fa-thumbs-down {
+  display: none;
+}
+/* end of toggle button */
 
 .progress-paragraph {
   font-size: 1.5rem;
