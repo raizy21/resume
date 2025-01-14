@@ -155,6 +155,8 @@ body {
   position: absolute;
   margin-left: 2rem;
   box-shadow: 0 0 1rem var(--primary-color);
+ 
+  /* transform: scale(1.2); */
 }
 
 .employment-icon {
@@ -170,7 +172,7 @@ body {
 /* toggle btn */
 .toggle-btn {
   display: flex;
-  
+
   margin-left: 2rem;
   /* border: 1px solid red; */
 
@@ -211,9 +213,8 @@ body {
 .progress-wrapper {
   margin-top: 0;
   display: flex;
-  flex-direction: row;
   /* border: 1px solid red; */
-  display: flex;
+
   flex-direction: row;
   color: var(--primary-color);
 }
